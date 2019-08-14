@@ -1,0 +1,7 @@
+{
+  "name": "Extract Tokens",
+  "id": "743350591462628160",
+  "api": "1.0.0",
+  "main": "dist/main.js",
+  "ui": "dist/panel.html"
+}
