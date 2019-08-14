@@ -68,9 +68,8 @@ const config: (env: string, argv: IArgv) => Configuration = (_, argv) => {
         template: './src/panel.html',
         filename: 'panel.html',
         chunks: [
-          'ui',
+          'panel',
         ],
-        // @ts-ignore
         inlineSource: '.(js|css)$',
       }),
       new HtmlWebpackInlineSourcePlugin(),
